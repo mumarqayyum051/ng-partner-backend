@@ -1,0 +1,5 @@
+node_modules
+yan.lock
+.DS_Store
+media
+.env

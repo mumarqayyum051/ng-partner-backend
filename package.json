@@ -1,0 +1,43 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "nodemon ./bin/www",
+    "dev": "DEBUG=component:* nodemon ./bin/www",
+    "lint": "eslint **/*.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "~17.1.1",
+    "bcrypt": "~5.0.1",
+    "bcryptjs": "~2.4.3",
+    "compression": "~1.7.4",
+    "connect-mongo": "~4.4.0",
+    "cors": "~2.8.5",
+    "debug": "~4.3.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-http-response": "0.0.8",
+    "helmet": "~4.4.1",
+    "http-errors": "~1.8.0",
+    "jade": "~1.11.0",
+    "joi": "~17.4.0",
+    "jsonwebtoken": "~8.5.1",
+    "mongoose": "~5.11.19",
+    "mongoose-paginate-v2": "^1.4.2",
+    "morgan": "~1.10.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3",
+    "passport": "~0.4.1",
+    "passport-jwt": "~4.0.0",
+    "passport-local": "~1.0.0",
+    "socket.io": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "~6.6.0",
+    "eslint-config-airbnb-base": "~14.2.0",
+    "eslint-plugin-import": "~2.22.0",
+    "nodemon": "~2.0.4"
+  }
+}
